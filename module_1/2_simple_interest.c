@@ -15,4 +15,5 @@ int main()
     interest=(principle+rate+time)/100;
     printf("The interest is %d",interest);
 
+    return 0;
 }

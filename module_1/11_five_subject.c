@@ -28,7 +28,7 @@ int main()
     //Outputting the marks
 
     i=0;
-    while(i<4)
+    while(i<=4)
     {   
         if(grade[i]>80)
         {
@@ -52,12 +52,13 @@ int main()
         }
         else
         {
-            printf("The grade for the subject %d is FAIL\n");
+            printf("The grade for the subject %d is FAIL\n",i+1);
             
         };
 
         i++;
         continue;
-        return 0;
+
     }
+    return 0;
 }
