@@ -13,10 +13,46 @@ Per < 42 “Fail
 int main()
 {
     //Taking the input
-    int sub1=0,sub2=0,sub3=0,sub3=0,sub4=0,sub5=0,percent=0,i=0;
-    printf("Welcome to the grade calculator!!");
-    char A[5]={"First","Second","Third","Fourth","Fifth"};
-    i=0
-    
+    int i=0;
+    int grade[5]={0,0,0,0,0};
+    printf("Welcome to the grade calculator!!\n");
 
+    //Taking the input
+    while(i<=5)
+    {   
+        i++;
+        printf("Please enter the grade for subject %d : ",i);
+        scanf("%d",&grade[i]);
+    }
+
+    //Outputting the marks
+
+    i=0;
+    while(i<5)
+    {
+        i++;
+        if(grade[i]>80)
+        {
+            printf("The grade for the subject %d is A+",i);
+        }
+        else if (grade[i]>65&&grade[i]<=80)
+        {
+            printf("The grade for subject %d is A",i);
+        }
+        else if (grade[i]>50&&grade[i]<=65)
+        {
+            printf("The grade for the subject %d is B",i);
+        }
+        else if (grade[i]>42&&grade[i]<=50)
+        {
+            printf("The grade for the subject %d is C",i);
+        }
+        else
+        {
+            printf("The grade for the subject %d is FAIL");
+        }
+
+
+        return 0;
+    }
 }
