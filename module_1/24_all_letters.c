@@ -7,7 +7,7 @@ int main()
     char i='a';
     while(i<='z')
     {
-        printf("%c \n",i);
+        printf("%c ",i);
         i++;
     };
     return 0;
