@@ -15,7 +15,7 @@ Input=
 C Programming
 m
 Output=
-C Prograing 
+
 */
 
 #include<stdio.h>

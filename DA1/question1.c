@@ -1,4 +1,3 @@
-#include<stdio.h>
 
 /*
 Write a C-program to create student structure having field roll_no, stud_name, Course. Pass this entire structure to function and display the structure elements.
@@ -13,7 +12,7 @@ Roll no: 45
 Name: Ram
 Course:BCSE
 */
-
+#include<stdio.h>
 struct student
 {
     int roll_no;
@@ -39,8 +38,5 @@ int main()
 
 
     return 0;
-
-
-
-    
+  
 }

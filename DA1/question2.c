@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 
 /*
 Complete the function void update(int *a,int *b). It receives two integer pointers, int* a and int* b. Set the value of to their product, and to their sum. There is no return value, and no return statement is needed.
@@ -21,6 +21,7 @@ Output=
 56
 15
 */
+#include<stdio.h>
 
 void update( int *a , int *b)
 {
