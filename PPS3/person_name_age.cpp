@@ -32,7 +32,7 @@ class Person
     {
         name=new_name;
         age=new_age;
-        cout<<"Construdtor called"<<endl;
+        cout<<"Constructor called"<<endl;
     }
 
     string getName(){return name;}
