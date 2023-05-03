@@ -16,3 +16,42 @@ Rental Price
 15000
 */
 
+#include<iostream>
+
+using namespace std;
+
+class car
+{
+    private:
+    string make;
+    string model;
+    int year;
+    int rental_price;
+
+    public:
+    void setmake(string new_make){make=new_make;}
+    void setmodel(string new_model){model=new_model;}
+    void setyear(int new_year){year=new_year;}
+    void setrental_price(int new_rental_price){rental_price=new_rental_price;}
+    string getmake(){return make;}
+    string getmodel(){return model;}
+    int getyear(){return year;}
+    int getrental_price(){return rental_price;}
+
+    car(string new_make,string new_model,int new_year,int new_rental_price)
+    {
+        setmake(new_make);
+        setmodel(new_model);
+        setyear(new_year);
+        setrental_price(new_rental_price);
+    }
+};
+
+int main()
+{
+    string new_make,new_model;
+    int new_year,new_rental_price;
+   
+
+    return 0;
+}
