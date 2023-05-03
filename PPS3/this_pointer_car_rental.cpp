@@ -61,13 +61,13 @@ int main() {
     {
         cout<<swift.getModel()<<endl;;
     }
-    else if (inp=="Rental Price")
-    {
-        cout<<swift.getRentalPrice()<<endl;;
-    }
     else if(inp=="Year")
     {
-        cout<<swift.getYear()<<endl;}
+        cout<<swift.getYear()<<endl;
+    }
+    else{
+        cout<<swift.getRentalPrice()<<endl;
+    }
 
     return 0;
 }
