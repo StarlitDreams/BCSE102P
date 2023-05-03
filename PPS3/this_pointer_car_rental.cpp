@@ -54,7 +54,7 @@ int main() {
     string inp;
     getline(cin,inp);
     Car swift;
-    swift.setModel("15000");
+    swift.setModel("Swift");
     swift.setRentalPrice(15000);
     swift.setYear(2022);
     if(inp=="Model")
