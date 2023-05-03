@@ -18,19 +18,23 @@ using namespace std;
 
 class Car {
 public:
-    Car(string make, string model, int year, double rentalPrice) {
-        this->make = make;
-        this->model = model;
-        this->year = year;
-        this->rentalPrice = rentalPrice;
-    }
-    string getmModel(){
+    string getModel(){
         return this->model;
     }
 
     double getRentalPrice() {
         return this->rentalPrice;
     }
+    void setRentalPrice(double rentalPrice) {
+        this->rentalPrice = rentalPrice;
+    }
+    void setMake(string make) {
+        this->make = make;
+    }
+    void setModel(string model) {
+        this->model = model;
+    }
+
 
 private:
     string make;
@@ -43,7 +47,19 @@ private:
 
 int main() {
     string inp;
-    getlint(cin,inp)
+    getline(cin,inp);
+    Car swift;
+    swift.setModel("15000");
+    swift.setRentalPrice(15000);
+
+    if(inp=="Model")
+    {
+        cout<<swift.getModel();
+    }
+    else{
+        cout<<swift.getRentalPrice();
+    }
+
 
     return 0;
 }
