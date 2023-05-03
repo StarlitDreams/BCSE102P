@@ -21,7 +21,9 @@ public:
     string getModel(){
         return this->model;
     }
-
+    int getYear() {
+        return this->year;
+    }
     double getRentalPrice() {
         return this->rentalPrice;
     }
@@ -33,6 +35,9 @@ public:
     }
     void setModel(string model) {
         this->model = model;
+    }
+    void setYear(int year) {
+        this->year = year;
     }
 
 
@@ -51,15 +56,18 @@ int main() {
     Car swift;
     swift.setModel("15000");
     swift.setRentalPrice(15000);
-
+    swift.setYear(2022);
     if(inp=="Model")
     {
-        cout<<swift.getModel();
+        cout<<swift.getModel()<<endl;;
     }
-    else{
-        cout<<swift.getRentalPrice();
+    else if (inp=="Rental Price")
+    {
+        cout<<swift.getRentalPrice()<<endl;;
     }
-
+    else if(inp=="Year")
+    {
+        cout<<swift.getYear()<<endl;}
 
     return 0;
 }
