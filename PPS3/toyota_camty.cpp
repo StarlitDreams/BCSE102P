@@ -49,8 +49,8 @@ int main()
     c.setmodel(new_model);
     c.setyear(new_year);
     cout<<c.getmake()<<endl;
-    cout<<"Model: "<<c.getmodel()<<endl;
-    cout<<"Year: "<<c.getyear()<<endl;
+    cout<<"Model:"<<c.getmodel()<<endl;
+    cout<<"Year:"<<c.getyear()<<endl;
 
     return 0;
 }
