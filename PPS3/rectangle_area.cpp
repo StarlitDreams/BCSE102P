@@ -23,7 +23,7 @@ using namespace std;
 class Rectangle
 {
     private:
-    int length;
+    int length; 
     int width;
     
     public:
