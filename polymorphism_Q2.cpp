@@ -34,6 +34,7 @@ class Calculator {
         float divide(float a, float b) {
             return a / b;
         }
+        
 };
 
 int main() {
