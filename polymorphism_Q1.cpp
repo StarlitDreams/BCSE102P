@@ -1,5 +1,5 @@
 /*
-1.	Suppose you have a parent class called Animal. Define two child classes, Cat and Dog, that inherit from the Animal class. 
+Suppose you have a parent class called Animal. Define two child classes, Cat and Dog, that inherit from the Animal class. 
 Both Cat and Dog should have a method called makeSound(), but the Cat's makeSound() method should return "Meow" and the Dog's makeSound() method should return "Woof". 
 Then, write a function that takes an Animal object as an argument and calls its makeSound() method.
 */
