@@ -96,9 +96,23 @@ int main() {
         Matrix mat2(rows, cols);
         mat2.read();
 
-        Matrix result = mat1 + mat2; // for addition
-        //Matrix result = mat1 - mat2; // for subtraction
-        result.display();
+        char op;
+        std::cin >> op;
+        if(op=='+')
+        {
+            Matrix result = mat1 + mat2; // for addition
+            result.display();
+        }
+        else if(op=='-')
+        {
+            Matrix result = mat1 - mat2; // for subtraction
+            result.display();
+        }
+        else
+        {
+            std::cout << "Invalid Matrix Size" << std::endl;
+        }
+        
     } catch (const std::invalid_argument& e) {
         std::cout << e.what() << '\n';
     }
